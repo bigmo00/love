@@ -35,7 +35,7 @@
 .search .search-text {
     width: 350px;
     height: 36px;
-    line-height: 36px\9;
+    line-height: 36px \9;
     padding: 0 5px;
 }
 
@@ -47,7 +47,6 @@
     font-weight: bold;
     cursor: pointer;
 }
-
 
 .cart {
     width: 152px;
@@ -75,4 +74,44 @@
     background: url("../images/cart-1.gif") 33px center no-repeat;
     text-align: right;
     padding-right: 29px;
+}
+
+/** 导航*/
+.nav {
+    height: 35px;
+    background-color: #1369C0;
+    color: #FFFFFF;
+}
+
+.nav .goods-category {
+    width: 190px;
+    line-height: 35px;
+    text-align: center;
+}
+
+.nav .goods-category i {
+    width: 11px;
+    height: 7px;
+    background: url("../images/down.png") left center no-repeat;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.nav .nav-list {
+    line-height: 35px;
+}
+
+.nav .nav-list li {
+    float: left;
+}
+
+.nav .nav-list a {
+    padding: 0 35px;
+    color: #FFFFFF;
+    line-height: 35px;
+    display: inline-block;
+}
+
+.nav .nav-list .activ {
+    background-color: #4593FD;
 }
