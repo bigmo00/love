@@ -5,6 +5,7 @@ body, ul, li, p, h1, h2, h3, h4, h5, h6, form, fieldset, table, td, img, div, dl
 
 body {
     font-size: 12px;
+    font-family: "Microsoft YaHei";
 }
 
 img {
@@ -38,7 +39,6 @@ a {
 .clearfix {
     zoom: 1
 }
-
 
 .w1000 {
     width: 1000px;
