@@ -287,15 +287,17 @@
     height: 400px;
 }
 
-.goods-up .goods-item {
+.goods-list .goods-item {
     width: 201px;
-    height: 280px;
     border-top: #CCCCCC solid 1px;
     border-right: #CCCCCC solid 1px;
-    border-bottom: #CCCCCC solid 1px;
-    float: left;
-    text-align: center;
     position: relative;
+}
+
+.goods-up .goods-item {
+    float: left;
+    height: 280px;
+    text-align: center;
 }
 
 .goods-up .goods-pic {
@@ -316,6 +318,10 @@
     line-height: 35px;
 }
 
+.goods-name a {
+    color: black;
+}
+
 .goods-up .goods-price {
     font-size: 14px;
     color: #FF7300;
@@ -323,11 +329,28 @@
     line-height: 25px;
 }
 
-.floor .goods-up {
-    height: 280px;
+
+.goods-down .goods-item {
+    float: left;
+    height: 90px;
+    text-align: center;
+    border-bottom: #CCCCCC solid 1px;
 }
 
-.floor .goods-down {
-    height: 90px;
+.goods-down .goods-pic {
+    float: left;
+    width: 70px;
+    height: 50px;
+    padding: 15px 15px 5px 15px;
+}
+
+.goods-down .goods-name {
+  float: left;
+}
+/************ 页脚 **********/
+.footer {
+    margin-top: 130px;
+    height: 223px;
+    background-color: #D4D4D4;
 }
 
