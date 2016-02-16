@@ -132,7 +132,7 @@
 .category-list .category-item {
     background-color: #4593FD;
     color: #FFFFFF;
-    padding: 12px 10px;
+    padding: 11px 10px;
     border-bottom: #3487F2 solid 1px;
     border-top: #5AA1FE solid 1px;;
 }
@@ -146,12 +146,16 @@
 
 .category-list .category-item dt {
     background: url("../images/right.png") right center no-repeat;
-    line-height: 22px;
+    height: 22px;
 }
 
 .category-list .category-item dt a {
     font-size: 14px;
     font-weight: bold;
+}
+
+.category-list .category-item dd {
+    height: 18px;
 }
 
 .category-list .category-item a {
