@@ -53,3 +53,7 @@ a {
 .fr {
     float: right;
 }
+
+.hide {
+    display: none;
+}

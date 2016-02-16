@@ -1,0 +1,28 @@
+.main {
+    margin-top: 17px;
+}
+
+.main .category {
+    background-color: #F3F3F3;
+    width: 185px;
+    border: #CDCDCD solid 1px;
+}
+
+.category .category-title {
+    height: 35px;
+    border-bottom: #CDCDCD solid 1px;
+    text-align: center;
+    line-height: 35px;
+    font-family: "宋体";
+    font-size: 14px;
+}
+
+.category .category-block {
+    padding: 10px 20px;
+    border-bottom: #CDCDCD dotted 1px;
+}
+
+.category .category-block li {
+    float: left;
+    margin-right: 10px;
+}
