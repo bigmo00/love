@@ -1,38 +1,37 @@
-.slide-4 {
+.slide-5 {
     position: relative;
-    background-image: url("../images/bg.png");
-    .love {
+    background-image: url("../images/bg2.png");
+    .image-box {
         position: relative;
         left: 50%;
         margin-left:-175px;
-        margin-top: 80px;
+        margin-top: 10px;
         width: 350px;
         height: 350px;
         div {
             position: absolute;
         }
     }
-    .item-image {
-        width: 18rem;
-        height: 18rem;
-        background-position: center;
-        background-size: contain;
-        background-repeat: no-repeat;
+    .item-text-title {
+        width: 16px;
+        color: #c36864;
+        font-size: 26pt;
+        font-weight: bold;
         position: absolute;
-        top: 4rem;
-        left: 0;
+        top:  360px;
+        left: -330px;
         right: 0;
-        margin: auto;
-        background-image: url('../images/lu-1.png');
+        margin: 0 auto;
+        text-align: center;
     }
     .item-text {
         width: 300px;
         color: #c36864;
-        font-size: 1.2rem;
+        font-size: 14pt;
         font-weight: bold;
         position: absolute;
-        top: 24rem;
-        left: 0;
+        top: 329px;
+        left: 45px;
         right: 0;
         margin: 0 auto;
         text-align: center;

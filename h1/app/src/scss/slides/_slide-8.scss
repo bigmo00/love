@@ -1,0 +1,39 @@
+.slide-8 {
+    position: relative;
+    background-image: url("../images/bg2.png");
+    .love {
+        position: absolute;
+        left: 50%;
+        margin-left:-175px;
+        margin-top: 30px;
+        width: 350px;
+        height: 350px;
+        div {
+            position: absolute;
+        }
+    }
+    .item-text-title {
+        width: 16px;
+        color: #c36864;
+        font-size: 26pt;
+        font-weight: bold;
+        position: absolute;
+        top:  390px;
+        left: -330px;
+        right: 0;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .item-text {
+        width: 300px;
+        color: #c36864;
+        font-size: 14pt;
+        font-weight: bold;
+        position: absolute;
+        top: 390px;
+        left: 30px;
+        right: 0;
+        margin: 0 auto;
+        text-align: center;
+    }
+}
